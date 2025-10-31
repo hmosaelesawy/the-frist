@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+header{
+
+    background-image:url(headerbg.png) ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+nav{
+    background-color: #333;
+    padding: 25px;
+    position:relative;
+   
+
+}
+nav a{
+    color: white ;
+    float:left;
+    font-size: larger;
+    text-decoration: none;
+    margin: -5px;
+    border-bottom: white;
+    
+}
+
+ul li{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+
+}
+hr{
+    width: 50%;
+    border:solid 1px #61c2f7;
+    margin: 20px auto;
+
+    
+}
+h1{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 100;
+    
+}
+p{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+
+
+nav ul li a:hover{
+    color: yellowgreen;
+}
+.botton{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border:solid 1px #61c2f7;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+a:hover{
+    color:yellowgreen;
+}
+.design h1{
+    text-align: center;
+    color: black;
+
+}
+.design p{
+    color: grey;
+    text-align: center;
+}
+.design{
+
+    background-color: #f8f8f8;
+    margin: -15px ;
+    padding: 20px;
+    width: 101%;
+    height: 250px;
+    line-height: 30px;
+}
+.icons{
+    padding: 50px 0px;
+    line-height: 20px;
+}
+
+.rows{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.icon1{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+    color: black;
+    position:static
+}
+.icons p {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
+
+.icon2 {
+
+    float: left;
+    width: 30%;
+    margin-right: 30px ;
+    text-align: center;
+    color:black;
+}
+.icon3{
+
+    float: left;
+    width: 30%;
+    margin-right: 30px ;
+    text-align: center;
+    color: black;
+
+}
+
+.x-row {
+    
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    height: 1000px;
+    
+}
+.x-row h1 {
+    color: #333;
+}
+.x-row p {
+    color: #777;
+}
+
+.x-row {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .x-row .item{
+    width: 31%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+    .item {
+      position: relative;
+      width: 30%;
+      overflow: hidden;
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background-color: rgba(28, 154, 238, 0.4);
+      display: none;
+      text-align: center;
+    }
+
+    .overlay i {
+      color: white;
+      font-size: 40px;
+      margin: 20px;
+      margin-top: 100px;
+    }
+
+    .item:hover .overlay {
+      display: block;
+    }
+
+    .item:hover img {
+      color: #61c2f7;
+    }
+    .i{
+        color: #000;
+    }
+    footer{
+    background-image:url(contactbg.png);
+    background-size: cover;
+    height: 600px;
+    padding: 50px 0;
+    position: relative;
+    background-color: #000;
+}
+.footer.form{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(45, 57, 80,.8);
+}
+.contactt-info {
+text-align: center;
+margin-top: 100px;
+}
+.contactt-info h2 {
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: white;
+}
+.contactt-info p {
+color: #828281;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 40px;
+}
+.contactt-form {
+width: 600px;
+
+margin: 20px auto;
+}
+.contactt-form input[type=text],input[type=email], textarea {
+width: 600px;
+padding: 15px;
+margin-bottom: 15px;
+background: transparent;
+display: block;
+
+}
+span {
+background: transparent;
+padding: 10px 30px;
+color: white;
+font-size: 16px;
+margin-left: 40px;
+color: white;
+text-align: center;
+}
+input[type=checkbox]{
+margin-right: 20px;
+}
+input[type=submit]{
+background: transparent;
+padding: 10px 30px;
+
+font-size: 16px;
+border: solid 1px white;
+color: white;
+}
